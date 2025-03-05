@@ -1,0 +1,32 @@
+.videoRows{
+    display: flex;
+    margin-bottom: 20px;
+    max-width: 700px;
+}
+.videoRows img{
+    object-fit: contain;
+    width: 246px;
+    width: 138px;
+    padding: 10px;
+
+}
+.videoRows-text p{
+    font-size: small;
+    color: gray;
+    margin-top: 10px;
+}
+@media screen and (max-width:600px) {
+    .videoRows{
+        width: 300px;
+    }
+    .videoRows img{
+        width: 150px ;
+        height: 70px ;
+    }
+    .videoRows-text h3{
+        font-size: small;
+    }
+    .videoRows-text p{
+        font-size: x-small;
+    }
+}

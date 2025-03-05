@@ -1,0 +1,16 @@
+.recommendedVideos{
+    flex: 0.9;
+    background-color: #f9f9f9;
+    margin-left: 40px;
+}
+.recommendedVideos-videos{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+@media screen  and (max-width:600px){
+    .recommendedVideos{
+        margin-left: 0;
+    }
+}
